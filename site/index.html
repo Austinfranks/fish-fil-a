@@ -4,42 +4,196 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
+    <link rel="icon" href="../images/logo/logo1ofc.png" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.14.0/css/all.css"
+      integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc"
+      crossorigin="anonymous"
+    />
+
     <title>Fish-fil-a</title>
   </head>
   <body>
     <nav>
       <section class="logo">
         <a href="#home">
-          <img src="../images/logo/logo1ofc.png" alt="" height="90px" />
+          <img src="../images/logo/logo1ofc.png" alt="" class="directlogo" />
         </a>
       </section>
       <section class="links">
-        <a href="#about">About</a>
-        <a href="#menu">Menu</a>
         <a href="#visit">Visit Us</a>
+        <a href="#menu">- Menu -</a>
+        <a href="#about">About</a>
       </section>
     </nav>
 
     <!-- main is for fixed navbar  -->
     <div class="main">
       <section id="home" class="home">
-        <div>
-          <img src="../images/design/homeimg1.jpg" alt="" class="homeimg2" />
-        </div>
+        <div class="homeContent">
+          <div class="homeText">
+            <h1>WELCOME...</h1>
+            <p>
+              To Fish-fil-a where our only catch is that it's the best !
+            </p>
+            <br />
+          </div>
 
-        <div>
-          <h1 class="homeText">
-            Come in today and try our special fish and shrimp with a side of
-            your choice !
-          </h1>
+          <div class="homeBanner">
+            <!-- <img src="../images/fishandchips.jpg" alt="" srcset="" class="homeimg" /> -->
+          </div>
         </div>
       </section>
-      <section id="about" class="about"></section>
-      <section id="menu" class="menu"></section>
-      <section id="visit" class="visit"></section>
+
+      <section id="visit" class="visit">
+        <div class="visitContent">
+          <div class="visitText">
+            <h1>COME VISIT US <i class="fas fa-car"></i></h1>
+            <p>
+              Find the closest restaurant near you. <br />
+              We also offer delivery, input your zipcode so we can serve you
+              today.
+            </p>
+
+            <div class="visitSearch">
+              <form action="/action_page.php" class="enterAddress">
+                <input type="text" placeholder="Enter your adress" />
+                <input type="submit" value="Search" class="subbtn" />
+              </form>
+            </div>
+          </div>
+
+          <div>
+            <img
+              src="../images/location.png"
+              alt=""
+              srcset=""
+              class="visitPic"
+            />
+          </div>
+        </div>
+      </section>
+
+      <section id="menu" class="menu">
+        <div class="menuTitle">
+          <h1>
+            Here it's simple, pick an entree add a side and a drink to your
+            desire
+          </h1>
+        </div>
+        <div class="menuContent">
+          <h1>Entrees</h1>
+
+          <div class="menuItems">
+            <div class="menuItems1">
+              <img src="../images/menu/entrees/grilledcod.jpg" alt="" />
+              <h2>Grilled Cod</h2>
+              <p>$ 4.00</p>
+            </div>
+            <div class="menuItems1">
+              <img src="../images/menu/entrees/friedcatfish.jpg" alt="" />
+              <h2>Fried Catfish</h2>
+              <p>$ 4.00</p>
+            </div>
+            <div class="menuItems1">
+              <img src="../images/menu/entrees/salmon.jpg" alt="" />
+              <h2>Salmon</h2>
+              <p>$ 6.00</p>
+            </div>
+            <div class="menuItems1">
+              <img src="../images/menu/entrees/grilledshrimp.jpg" alt="" />
+              <h2>Grilled Shrimp</h2>
+              <p>$ 4.00</p>
+            </div>
+            <div class="menuItems1">
+              <img src="../images/menu/entrees/friedshrimp.jpg" alt="" />
+              <h2>Fried Shrimp</h2>
+              <p>$ 4.00</p>
+            </div>
+            <div class="menuItems1">
+              <img src="../images/menu/entrees/codfishsandwich.jpg" alt="" />
+              <h2>Cod sandwhich</h2>
+              <p>$ 5.00</p>
+            </div>
+          </div>
+
+          <h1>Sides</h1>
+
+          <div class="sides">
+            <div class="menuItems">
+              <div class="menuItems1">
+                <img src="../images/menu/sides/wedges.jpg" alt="" />
+                <h2>Potatoe Wedges</h2>
+                <p>4.00 $</p>
+              </div>
+              <div class="menuItems1">
+                <img src="../images/menu/sides/mashedpotatoes.jpg" alt="" />
+                <h2>Mashed Potatoes</h2>
+                <p>4.00 $</p>
+              </div>
+              <div class="menuItems1">
+                <img src="../images/menu/sides/broccoli.jpg" alt="" />
+                <h2>Mashed Potatoes</h2>
+                <p>4.00 $</p>
+              </div>
+              <div class="menuItems1">
+                <img src="../images/menu/sides/asparagus.jpg" alt="" />
+                <h2>Mashed Potatoes</h2>
+                <p>4.00 $</p>
+              </div>
+              <div class="menuItems1">
+                <img src="../images/menu/sides/rice.jpg" alt="" />
+                <h2>Mashed Potatoes</h2>
+                <p>4.00 $</p>
+              </div>
+              <div class="menuItems1">
+                <img src="../images/menu/sides/creamspinach.jpg" alt="" />
+                <h2>Mashed Potatoes</h2>
+                <p>4.00 $</p>
+              </div>
+            </div>
+
+            <h1>Drinks</h1>
+
+            <div class="menuItems">
+              <div class="menuItems1">
+                <img src="../images/menu/drinks/cokeproducts.png" alt="" />
+                <h2>Coke Products</h2>
+                <p>1.00 $</p>
+              </div>
+              <div class="menuItems1">
+                <img src="../images/menu/drinks/smoothie.jpg" alt="" />
+                <h2>Smoothie</h2>
+                <p>4.00 $</p>
+              </div>
+              <div class="menuItems1">
+                <img src="../images/menu/drinks/rumncoke.jpg" alt="" />
+                <h2>Mashed Potatoes</h2>
+                <p>6.00 $</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="about" class="about">
+        <div class="aboutContent">
+          <div class="aboutText">
+            <h1>Our mission</h1>
+            <p>
+              Here our mission is to bring fresh fish to the fast food industry
+              in North Carolina. We believe we can front run the competion by
+              delivering the best quality and tasting food on the market !
+            </p>
+          </div>
+        </div>
+      </section>
     </div>
 
-    <footer></footer>
+    <footer>
+      FOOTER
+    </footer>
 
     <script src="app.js"></script>
   </body>
